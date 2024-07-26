@@ -92,6 +92,7 @@ function App() {
         setView(View.CONNECTED);
     };
 
+    
     // Handle MainButton changes on view change
     useEffect(() => {
         if (view === View.LANDING) {
