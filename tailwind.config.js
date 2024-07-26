@@ -8,6 +8,7 @@ export default {
                 'custom-white': '0px 0px 4px 10px rgba(255, 255, 255, 0.2)',
             },
             colors: {
+                
                 customGreen: '#273f44',
                 customGrayText: '#888a8c',
                 customBlue: '#aadaf1',
