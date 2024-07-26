@@ -3,14 +3,14 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    entry: './src/main.tsx', // Make sure this points to your entry file
+    entry: './src/main.tsx', 
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'bundle.js', // This can be named anything; bundle.js is typical
+        filename: 'bundle.js', 
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: './index.html', // Ensure you have an HTML template in your public folder
+            template: './index.html', 
         }),
     ],
     module: {
